@@ -7,8 +7,11 @@ install:
   - npm install
  
 script:
-  - npm test
+        #  - npm test
   - npm run build
+
+after_success:
+  - npm test
 
 deploy:
   provider: pages
@@ -18,3 +21,5 @@ deploy:
   on:
     branch: master
 
+after_deploy:
+  - ./check-success.sh
