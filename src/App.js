@@ -8,7 +8,8 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React using Travis alright alright alright</h2>
+          <h2>Welcome to React using Travis</h2>
+	  <h3>We testing</h3>
         </div>
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.

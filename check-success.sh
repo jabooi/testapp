@@ -5,7 +5,8 @@ if [[ $? -ne 0 ]];
         echo "The application has been deployed, but it cannot be reached"
         exit 1
 else
-exit 0
+	echo "Website could be reached, assuming success!"
+	exit 0
 
 fi
 
